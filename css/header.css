@@ -1,0 +1,38 @@
+.header {
+  padding: 5px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 20%;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.menu {
+  width: 80%;
+}
+
+.menubar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  list-style: none;
+}
+
+.menubar li {
+  padding: 10px;
+}
+.menubar li a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.menubar li a:hover {
+  color: #fa5e01;
+}
