@@ -1,0 +1,33 @@
+.admission {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apply {
+  width: 900px;
+  height: 160px;
+  background: #fa5e01;
+  margin: 0 auto;
+  padding: 50px;
+}
+.apply h1 {
+  font-size: 40px;
+}
+
+.apply p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.admission-btn {
+  margin-top: 20px;
+}
+
+.admission-btn button {
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+}
