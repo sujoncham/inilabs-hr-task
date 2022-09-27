@@ -1,0 +1,39 @@
+.teachers {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+
+.teacher {
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+.teacher img {
+  width: 100%;
+}
+
+.see-teachers {
+  background-image: url("../assets/counter-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  margin-top: 10px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  background-color: #fa5e01;
+  height: 50px;
+}
+.social-links img {
+  width: 50px;
+}
