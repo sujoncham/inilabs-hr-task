@@ -1,8 +1,11 @@
+.testimonial {
+  padding: 60px;
+}
 .test-inner {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 10px;
+  align-items: self-end;
+  gap: 70px;
 }
 .test-img {
   width: 50%;
@@ -14,4 +17,32 @@
 
 .test-text {
   width: 50%;
+}
+
+.test-text h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.test-text .wise-text {
+  font-size: 26px;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+.client {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.client h3 {
+  font-size: 34px;
+}
+
+.client p {
+  color: #fa5e01;
+  font-size: 22px;
 }

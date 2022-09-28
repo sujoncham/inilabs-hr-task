@@ -1,6 +1,6 @@
 .about {
-  position: relative;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .about-inner {
@@ -11,6 +11,7 @@
 
 .about-item {
   width: 50%;
+  position: relative;
 }
 
 .about-item .about-img {
@@ -21,29 +22,35 @@
   font-size: 60px;
 }
 
-.about-item p {
-  margin: 30px 0;
+.about-item .about-text {
+  margin: 42px 0;
 }
 
 .learn-more button {
   color: #fa5e01;
   padding: 10px 50px;
   border: 2px solid #fa5e01;
+  font-size: 22px;
+}
+
+.learn-more button:hover {
+  background-color: #fa5e01;
+  color: #fff;
 }
 
 .counter {
+  position: absolute;
   background-image: url("../assets/counter-bg.png");
-  border: 1px solid #fa5e01;
+  /* border: 1px solid #fa5e01; */
   width: 800px;
   height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px;
-  position: absolute;
-  bottom: -15%;
-  right: 10%;
   text-align: center;
+  left: -48%;
+  top: 68%;
 }
 
 .counter h1 {

@@ -9,12 +9,27 @@
 .teacher {
   width: 30%;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .teacher h3 {
   font-size: 34px;
   color: #25201d;
   margin-bottom: 10px;
+}
+
+.teacher-header {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.teacher-header h1 {
+  font-size: 60px;
+  color: #25201d;
+}
+
+.teacher-img:hover .social-links {
+  display: block;
 }
 
 .teacher p {
@@ -35,6 +50,8 @@
   margin-top: 10px;
   margin-bottom: 50px;
   cursor: pointer;
+  gap: 5px;
+  color: #25201d;
 }
 
 .arrow {
@@ -51,13 +68,17 @@
 }
 
 .social-links {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  gap: 5px;
-  background-color: #fa5e01;
-  height: 50px;
+  position: absolute;
+  bottom: 25%;
+  left: 20%;
+  display: none;
 }
+
 .social-links img {
-  width: 50px;
+  width: 40px;
+  height: 45px;
+}
+
+.social-links:hover {
+  display: block;
 }

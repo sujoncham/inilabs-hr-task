@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
 }
 
 .apply {
@@ -15,11 +16,13 @@
 }
 .apply h1 {
   font-size: 40px;
+  color: #fff;
 }
 
 .apply p {
   font-size: 18px;
   margin-top: 20px;
+  color: #fff;
 }
 
 .admission-btn {
@@ -27,7 +30,15 @@
 }
 
 .admission-btn button {
-  padding: 10px;
+  padding: 14px 50px;
   border: none;
   background-color: #fff;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.admission-btn button:hover {
+  background-color: #25201d;
+  color: #fa5e01;
+  border: 1px solid #fff;
 }

@@ -16,67 +16,125 @@
    <link rel="stylesheet" href="css/testimonial.css">
    <link rel="stylesheet" href="css/teacher.css">
    <link rel="stylesheet" href="css/footer.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 </head>
 
 <body>
    <div class="main">
       <header class="header">
          <div class="container">
-            <div class="navbar">
-               <div class="logo">
-                  <img src="./assets/logo-1.png" alt="">
-               </div>
-               <div class="menu">
-                  <ul class="menubar">
-                     <li><a href="">Home</a></li>
-                     <li><a href="">About</a></li>
-                     <li><a href="">Teacher</a></li>
-                     <li><a href="">Gallery</a></li>
-                     <li><a href="">Event</a></li>
-                     <li><a href="">Contact</a></li>
-                     <li><a href="">Blog</a></li>
-                     <li><a href="">Admission</a></li>
-                     <li><a href="">Login</a></li>
-                     <!-- <div class="signle-login">
-                        <img class="login" src="./assets/log-img.png" alt="">
-                        <img class="white-img" src="./assets/white-logo.png" alt="">
-                        <img class="white-text" src="./assets/LogIn.png" alt="">
-                     </div> -->
-
-                  </ul>
-               </div>
-
-            </div>
+            <nav>
+               <div class="logo">Brand</div>
+               <input type="checkbox" id="click">
+               <label for="click" class="menu-btn">
+                  <i class="fas fa-bars"></i>
+               </label>
+               <ul>
+                  <li><a class="active" href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">Feedback</a></li>
+               </ul>
+            </nav>
          </div>
       </header>
+
+
       <div class="slider">
          <div class="slideshow-container">
 
             <div class="mySlides fade">
                <div class="numbertext">1 / 3</div>
                <img src="./assets/banner-1.png" style="width:100%">
-               <div class="text">Caption Text</div>
+               <div class="container slide-text ">
+                  <div class="offer-bright">
+                     <div class="white-line">
+                        <img src="./assets/white-line.png" alt="">
+                        <h4>A TRADITION SINCE 2002</h4>
+                     </div>
+                     <h1>Offering Bright <br> Futures</h1>
+                     <p class="bright-text">iNiLabs School gradutes are styding in the world's most prestigious
+                        universities.</p>
+                     <div class="offering">
+                        <button>Apply Now</button>
+                     </div>
+                  </div>
+                  <div class="playing">
+                     <img src="./assets/play.png" alt="">
+                     <div>
+                        <h3>iNiLabs School</h3>
+                        <h1>CAMPUS <br> TOUR</h1>
+
+                     </div>
+                  </div>
+
+               </div>
             </div>
 
             <div class="mySlides fade">
                <div class="numbertext">2 / 3</div>
                <img src="./assets/banner-1.png" style="width:100%">
-               <div class="text">Caption Two</div>
+               <div class="container slide-text ">
+                  <div class="offer-bright">
+                     <div class="white-line">
+                        <img src="./assets/white-line.png" alt="">
+                        <h4>A TRADITION SINCE 2002</h4>
+                     </div>
+                     <h1>Offering Bright <br> Futures</h1>
+                     <p class="bright-text">iNiLabs School gradutes are styding in the world's most prestigious
+                        universities.</p>
+                     <div class="offering">
+                        <button>Apply Now</button>
+                     </div>
+                  </div>
+                  <div class="playing">
+                     <img src="./assets/play.png" alt="">
+                     <div>
+                        <h3>iNiLabs School</h3>
+                        <h1>CAMPUS <br> TOUR</h1>
+
+                     </div>
+                  </div>
+
+               </div>
             </div>
 
             <div class="mySlides fade">
                <div class="numbertext">3 / 3</div>
                <img src="./assets/banner-1.png" style="width:100%">
-               <div class="text">Caption Three</div>
+               <div class="container slide-text ">
+                  <div class="offer-bright">
+                     <div class="white-line">
+                        <img src="./assets/white-line.png" alt="">
+                        <h4>A TRADITION SINCE 2002</h4>
+                     </div>
+                     <h1>Offering Bright <br> Futures</h1>
+                     <p class="bright-text">iNiLabs School gradutes are styding in the world's most prestigious
+                        universities.</p>
+                     <div class="offering">
+                        <button>Apply Now</button>
+                     </div>
+                  </div>
+                  <div class="playing">
+                     <img src="./assets/play.png" alt="">
+                     <div>
+                        <h3>iNiLabs School</h3>
+                        <h1>CAMPUS <br> TOUR</h1>
+
+                     </div>
+                  </div>
+
+               </div>
             </div>
 
             <a class="prev" onclick="plusSlides(-1)">❮</a>
             <a class="next" onclick="plusSlides(1)">❯</a>
 
          </div>
-         <br>
 
-         <div style="text-align:center">
+
+         <div class="dot-three">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
@@ -124,7 +182,8 @@
                <div class="about-item">
                   <img src="./assets/line-2.png" alt="">
                   <h1>About School</h1>
-                  <p>iNiLabs School is an independent, non-governmental organisation, established to provide
+                  <p class="about-text">iNiLabs School is an independent, non-governmental organisation, established to
+                     provide
                      high-quality education to local and expatriate communities in Bangladesh and United State of
                      America.
                   </p>
@@ -134,22 +193,23 @@
                </div>
                <div class="about-item">
                   <img class="about-img" src="./assets/about-img.png" alt="">
+                  <div class="counter">
+                     <div>
+                        <h1>25</h1>
+                        <p>Teachers</p>
+                     </div>
+                     <div>
+                        <h1>2500+</h1>
+                        <p>Students</p>
+                     </div>
+                     <div>
+                        <h1>1500+</h1>
+                        <p>Guardians</p>
+                     </div>
+                  </div>
                </div>
             </div>
-            <div class="counter">
-               <div>
-                  <h1>25</h1>
-                  <p>Teachers</p>
-               </div>
-               <div>
-                  <h1>2500+</h1>
-                  <p>Students</p>
-               </div>
-               <div>
-                  <h1>1500+</h1>
-                  <p>Guardians</p>
-               </div>
-            </div>
+
          </div>
       </section>
 
@@ -172,12 +232,13 @@
                <div class="test-text">
                   <img src="./assets/line-2.png" alt="">
                   <h1>Wise Words From Principle </h1>
-                  <p>“iNiLabs School is a welcoming Catholic community renowned for its integrity and creative learning
+                  <p class="wise-text">"iNiLabs School is a welcoming Catholic community renowned for its integrity and
+                     creative learning
                      approaches that bring out the best in boys. Our rich Salesian charism underpinned by the
                      educational principles of founder, St John Bosco, provides the foundation of a future focused
-                     pedagogical vision.”
+                     pedagogical vision."
                   </p>
-                  <div>
+                  <div class="client">
                      <img src="./assets/line-3.png" alt="">
                      <div>
                         <h3>Jonathon Doe </h3>
@@ -191,44 +252,44 @@
 
       <section class="our-teacher">
          <div class="container">
-            <div>
+            <div class="teacher-header">
                <img src="./assets/line-2.png" alt="">
                <h1>Our Teachers </h1>
             </div>
             <div class="teachers">
                <div class="teacher">
-                  <img src="./assets/teacher-1.png" alt="">
+                  <img class="teacher-img" src="./assets/teacher-1.png" alt="">
                   <div>
                      <h3>Cooper Donin</h3>
                      <p>Head of Operation</p>
                   </div>
-                  <div style="display: none;">
-                     <img src="" alt="">
-                     <img src="" alt="">
-                     <img src="" alt="">
-                     <img src="" alt="">
-                     <img src="" alt="">
+                  <div class="social-links">
+                     <img src="./assets/fb.png" alt="">
+                     <img src="./assets/youtube.png" alt="">
+                     <img src="./assets/twt.png" alt="">
+                     <img src="./assets/in.png" alt="">
+                     <img src="./assets/insta.png" alt="">
                   </div>
                </div>
                <div class="teacher">
-                  <img src="./assets/teacher-2.png" alt="">
+                  <img class="teacher-img" src="./assets/teacher-2.png" alt="">
                   <div>
-                     <h3>Cooper Donin</h3>
-                     <p>Head of Operation</p>
+                     <h3>Anika Baptista</h3>
+                     <p>Art Teacher</p>
                   </div>
-                  <div style="display: none;">
-                     <img src="" alt="">
-                     <img src="" alt="">
-                     <img src="" alt="">
-                     <img src="" alt="">
-                     <img src="" alt="">
+                  <div class="social-links">
+                     <img src="./assets/fb.png" alt="">
+                     <img src="./assets/youtube.png" alt="">
+                     <img src="./assets/twt.png" alt="">
+                     <img src="./assets/in.png" alt="">
+                     <img src="./assets/insta.png" alt="">
                   </div>
                </div>
                <div class="teacher">
-                  <img src="./assets/teacher-3.png" alt="">
+                  <img class="teacher-img" src="./assets/teacher-3.png" alt="">
                   <div>
-                     <h3>Cooper Donin</h3>
-                     <p>Head of Operation</p>
+                     <h3>Kaiya Bator</h3>
+                     <p>Spanish Teacher</p>
                   </div>
                   <div class="social-links">
                      <img src="./assets/fb.png" alt="">
