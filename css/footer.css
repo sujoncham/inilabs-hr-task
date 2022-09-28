@@ -11,7 +11,7 @@
 }
 
 .footer-1 {
-  width: 45%;
+  width: 40%;
 }
 
 .footer-1 p {
@@ -38,7 +38,7 @@
 }
 
 .footer-3 {
-  width: 30%;
+  width: 35%;
 }
 
 .footer-3 h3 {
@@ -47,12 +47,23 @@
   margin-bottom: 10px;
 }
 
+.footer-3 p {
+  margin-top: 10px;
+  color: #fff;
+}
+
 .location {
   display: flex;
   justify-content: start;
-  align-items: center;
+  align-items: stretch;
   gap: 10px;
   margin-bottom: 10px;
+}
+
+.location img,
+.phone img {
+  width: 12px;
+  height: 18px;
 }
 
 .phone {
@@ -72,5 +83,19 @@
 }
 
 .footer-links img {
-  width: 40px;
+  width: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.footer-links img:hover {
+  background-color: #25201d;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.footer-text {
+  width: 350px;
+  margin-bottom: 20px;
 }

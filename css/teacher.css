@@ -3,6 +3,7 @@
   justify-content: start;
   align-items: center;
   gap: 5px;
+  padding-bottom: 50px;
 }
 
 .teacher {
@@ -10,20 +11,43 @@
   margin-bottom: 10px;
 }
 
+.teacher h3 {
+  font-size: 34px;
+  color: #25201d;
+  margin-bottom: 10px;
+}
+
+.teacher p {
+  color: #25201d;
+  margin-top: 24px;
+}
+
 .teacher img {
   width: 100%;
 }
 
 .see-teachers {
-  background-image: url("../assets/counter-bg.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #fff9f5;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80px;
   margin-top: 10px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.arrow {
+  display: block;
+}
+
+.arrow:hover {
+  display: block;
+}
+
+.see-teachers:hover {
+  background-color: #fa5e01;
+  color: #fff;
 }
 
 .social-links {
