@@ -11,7 +11,529 @@
   padding: 1px;
 }
 
-.container {
-  width: 1300px;
-  margin: 0 auto;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header {
+    background-color: #fa5e01 !important;
+  }
+
+  .slide-text {
+    left: 0% !important;
+    top: 5% !important;
+  }
+  .white-line h4 {
+    color: #fff;
+    font-size: 10px;
+  }
+  .offer-bright h1 {
+    color: #fff;
+    font-size: 14px;
+  }
+  .white-line {
+    margin-bottom: 18px !important;
+  }
+  .bright-text {
+    margin-top: 12px !important;
+    margin-bottom: 12px !important;
+  }
+  .offer-bright p {
+    color: #fff;
+    font-size: 12px;
+    display: none;
+  }
+  .offering button {
+    background-color: #fa5e01;
+    padding: 3px 25px !important;
+    border: none;
+    font-size: 12px !important;
+    color: #fff !important;
+  }
+  .playing h3 {
+    font-size: 12px !important;
+  }
+  .playing h1 {
+    color: #fff;
+    font-size: 18px !important;
+  }
+  .playing img {
+    width: 40px !important;
+  }
+
+  .topic {
+    flex-wrap: wrap;
+  }
+  .topic-item {
+    padding: 2px !important;
+    width: 45% !important;
+  }
+
+  .about-item {
+    width: 100% !important;
+    position: relative;
+  }
+
+  .about-inner {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .counter {
+    width: 350px !important;
+    height: 30px !important;
+    left: 8% !important;
+    top: 85% !important;
+  }
+  .counter h1 {
+    font-size: 18px !important;
+  }
+  .counter p {
+    font-size: 12px !important;
+  }
+
+  .about-item h1 {
+    font-size: 30px !important;
+  }
+
+  .about-item .about-text {
+    margin: 15px 0 !important;
+    text-align: justify !important;
+  }
+
+  .learn-more button {
+    color: #fa5e01;
+    padding: 4px 18px !important;
+    border: 2px solid #fa5e01;
+    font-size: 18px !important;
+  }
+  .learn-more {
+    margin-bottom: 10px;
+  }
+
+  .apply h1 {
+    font-size: 24px !important;
+  }
+
+  .admission-btn button {
+    padding: 10px 26px !important;
+    font-size: 18px !important;
+  }
+  .test-img {
+    width: 100% !important;
+  }
+
+  .test-text {
+    width: 100% !important;
+  }
+
+  .test-inner {
+    flex-direction: column !important;
+  }
+  .test-text h1 {
+    font-size: 30px !important;
+  }
+  .test-text .wise-text {
+    font-size: 18px !important;
+  }
+  .client h3 {
+    font-size: 24px !important;
+  }
+  .client p {
+    font-size: 14px !important;
+  }
+  .teacher-header h1 {
+    font-size: 30px !important;
+  }
+  .teacher h3 {
+    font-size: 16px !important;
+  }
+  .teacher p {
+    margin-top: 4px !important;
+    font-size: 12px !important;
+  }
+  .see-teachers {
+    height: 50px !important;
+  }
+  .footer-1 {
+    width: 100% !important;
+  }
+  .footer-2 {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 10px;
+  }
+
+  .footer-inner {
+    flex-direction: column !important;
+  }
+  .footer {
+    padding: 10px;
+  }
+
+  .footer-text {
+    width: 450px !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header {
+    background-color: #03303d !important;
+  }
+
+  .slide-text {
+    left: 0% !important;
+    top: 5% !important;
+  }
+  .white-line h4 {
+    color: #fff;
+    font-size: 10px;
+  }
+  .offer-bright h1 {
+    color: #fff;
+    font-size: 14px;
+  }
+  .white-line {
+    margin-bottom: 18px !important;
+  }
+  .bright-text {
+    margin-top: 12px !important;
+    margin-bottom: 12px !important;
+  }
+  .offer-bright p {
+    color: #fff;
+    font-size: 12px;
+    display: none;
+  }
+  .offering button {
+    background-color: #fa5e01;
+    padding: 3px 25px !important;
+    border: none;
+    font-size: 12px !important;
+    color: #fff !important;
+  }
+  .playing h3 {
+    font-size: 12px !important;
+  }
+  .playing h1 {
+    color: #fff;
+    font-size: 18px !important;
+  }
+  .playing img {
+    width: 40px !important;
+  }
+
+  .topic {
+    flex-wrap: wrap;
+  }
+  .topic-item {
+    padding: 2px !important;
+    width: 45% !important;
+  }
+
+  .about-item {
+    width: 100% !important;
+    position: relative;
+  }
+
+  .about-inner {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .counter {
+    width: 350px !important;
+    height: 30px !important;
+    left: 8% !important;
+    top: 85% !important;
+  }
+  .counter h1 {
+    font-size: 18px !important;
+  }
+  .counter p {
+    font-size: 12px !important;
+  }
+
+  .about-item h1 {
+    font-size: 30px !important;
+  }
+
+  .about-item .about-text {
+    margin: 15px 0 !important;
+    text-align: justify !important;
+  }
+
+  .learn-more button {
+    color: #fa5e01;
+    padding: 4px 18px !important;
+    border: 2px solid #fa5e01;
+    font-size: 18px !important;
+  }
+  .learn-more {
+    margin-bottom: 10px;
+  }
+
+  .apply h1 {
+    font-size: 24px !important;
+  }
+
+  .admission-btn button {
+    padding: 10px 26px !important;
+    font-size: 18px !important;
+  }
+  .test-img {
+    width: 100% !important;
+  }
+
+  .test-text {
+    width: 100% !important;
+  }
+
+  .test-inner {
+    flex-direction: column !important;
+  }
+  .test-text h1 {
+    font-size: 30px !important;
+  }
+  .test-text .wise-text {
+    font-size: 18px !important;
+  }
+  .client h3 {
+    font-size: 24px !important;
+  }
+  .client p {
+    font-size: 14px !important;
+  }
+  .teacher-header h1 {
+    font-size: 30px !important;
+  }
+  .teacher h3 {
+    font-size: 16px !important;
+  }
+  .teacher p {
+    margin-top: 4px !important;
+    font-size: 12px !important;
+  }
+  .see-teachers {
+    height: 50px !important;
+  }
+  .footer-1 {
+    width: 100% !important;
+  }
+  .footer-2 {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 10px;
+  }
+
+  .footer-inner {
+    flex-direction: column !important;
+  }
+  .footer {
+    padding: 10px;
+  }
+
+  .footer-text {
+    width: 450px !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header {
+    background-color: #2a0533 !important;
+  }
+
+  .slide-text {
+    left: 0% !important;
+    top: 5% !important;
+  }
+  .white-line h4 {
+    color: #fff;
+    font-size: 10px;
+  }
+  .offer-bright h1 {
+    color: #fff;
+    font-size: 14px;
+  }
+  .white-line {
+    margin-bottom: 18px !important;
+  }
+  .bright-text {
+    margin-top: 12px !important;
+    margin-bottom: 12px !important;
+  }
+  .offer-bright p {
+    color: #fff;
+    font-size: 12px;
+    display: none;
+  }
+  .offering button {
+    background-color: #fa5e01;
+    padding: 3px 25px !important;
+    border: none;
+    font-size: 12px !important;
+    color: #fff !important;
+  }
+  .playing h3 {
+    font-size: 12px !important;
+  }
+  .playing h1 {
+    color: #fff;
+    font-size: 18px !important;
+  }
+  .playing img {
+    width: 40px !important;
+  }
+
+  .topic {
+    flex-wrap: nowrap;
+  }
+  .topic-item {
+    padding: 2px !important;
+    width: 23% !important;
+  }
+
+  .about-inner {
+    flex-direction: row !important;
+  }
+
+  .about-item {
+    width: 45% !important;
+  }
+
+  .school-img {
+    width: 45% !important;
+    position: relative;
+  }
+
+  .counter {
+    width: 350px !important;
+    height: 30px !important;
+    left: -20% !important;
+    top: 85% !important;
+  }
+  .counter h1 {
+    font-size: 18px !important;
+  }
+  .counter p {
+    font-size: 12px !important;
+  }
+
+  .about-item h1 {
+    font-size: 30px !important;
+  }
+
+  .about-item .about-text {
+    margin: 15px 0 !important;
+    text-align: justify !important;
+  }
+
+  .learn-more button {
+    color: #fa5e01;
+    padding: 4px 18px !important;
+    border: 2px solid #fa5e01;
+    font-size: 18px !important;
+  }
+  .learn-more {
+    margin-bottom: 10px;
+  }
+
+  .apply h1 {
+    font-size: 24px !important;
+  }
+
+  .admission-btn button {
+    padding: 10px 26px !important;
+    font-size: 18px !important;
+  }
+  .test-img {
+    width: 50% !important;
+  }
+
+  .test-text {
+    width: 50% !important;
+  }
+
+  .test-inner {
+    flex-direction: row !important;
+  }
+  .test-text h1 {
+    font-size: 18px !important;
+  }
+  .test-text .wise-text {
+    font-size: 14px !important;
+  }
+  .client h3 {
+    font-size: 18px !important;
+  }
+  .client p {
+    font-size: 12px !important;
+  }
+  .teacher-header h1 {
+    font-size: 30px !important;
+  }
+  .teacher h3 {
+    font-size: 16px !important;
+  }
+  .teacher p {
+    margin-top: 4px !important;
+    font-size: 12px !important;
+  }
+  .see-teachers {
+    height: 50px !important;
+  }
+  .footer-1 {
+    width: 100% !important;
+  }
+  .footer-2 {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 10px;
+  }
+
+  .footer-inner {
+    flex-direction: column !important;
+  }
+  .footer {
+    padding: 10px;
+  }
+
+  .footer-text {
+    width: 450px !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {
+    background: orange;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {
+    background: pink;
+  }
 }

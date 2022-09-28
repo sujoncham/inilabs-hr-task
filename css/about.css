@@ -7,14 +7,19 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 5px;
 }
 
 .about-item {
-  width: 50%;
+  width: 45%;
+}
+
+.school-img {
+  width: 45%;
   position: relative;
 }
 
-.about-item .about-img {
+.school-img .about-img {
   width: 100%;
 }
 
