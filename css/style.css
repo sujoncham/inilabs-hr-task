@@ -82,10 +82,10 @@
   }
 
   .counter {
-    width: 350px !important;
+    width: 203px !important;
     height: 30px !important;
-    left: 8% !important;
-    top: 85% !important;
+    left: -28% !important;
+    top: 88% !important;
   }
   .counter h1 {
     font-size: 18px !important;
@@ -176,7 +176,18 @@
   }
 
   .footer-text {
-    width: 450px !important;
+    width: 365px !important;
+  }
+
+  .footer-links {
+    height: 100px !important;
+    flex-wrap: wrap;
+  }
+
+  .footer-links img {
+    width: 30px;
+    padding: 4px !important;
+    cursor: pointer;
   }
 }
 
